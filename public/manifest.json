@@ -1,0 +1,15 @@
+{
+  "short_name": "S. 특별한 것을 만들다.",
+  "name": "Harry's Portfolio",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

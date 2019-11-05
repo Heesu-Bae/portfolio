@@ -1,0 +1,21 @@
+.Header {
+    width: auto;
+    height: 60px;
+}
+
+.Header-logo {
+    position: absolute;
+    z-index: 300;
+    padding-top: 20px;
+    padding-left: 15px;
+    float: left;
+    display: none;
+}
+
+.Header-btn {
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
