@@ -5,7 +5,8 @@ import './Home.css'
 const Home = () => {
     return (
         <div className="Home">
-            <a>Make A <span>Special</span> Thing<br/>For the World</a>
+            <img className="Home-logo" src='logo.png' width='100px' height='100px' alt=""/>
+            <a>Make A <span>S</span>pecial Thing<br/>For the World</a>
         </div>
     )
 }

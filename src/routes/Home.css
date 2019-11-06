@@ -2,18 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     height: 100%;
     width: 100%;
+    z-index: 2;
+}
+
+.Home-logo {
+    margin-top: 130px;
+    margin-bottom: 20px;
 }
 
 .Home a {
     font-size: 3rem;
     font-weight: bold;
     color: white;
-
-    margin-bottom: 20rem;
 }
 
 .Home span {

@@ -1,6 +1,7 @@
 .Header {
     width: auto;
     height: 60px;
+    z-index: 1;
 }
 
 .Header-logo {
@@ -16,6 +17,38 @@
     float: right;
     margin-top: 20px;
     margin-right: 15px;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
     border: none;
+    outline: none;
 }
+
+.Header-Link {
+    color: lightgray;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.Header-Link:visited {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.Header-Link:hover {
+    color: dodgerblue;
+
+}
+
+#Header-Menu {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#Header-Menu li {
+    font-size: 25px;
+    padding: 10px;
+}
+
